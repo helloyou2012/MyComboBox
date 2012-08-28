@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDEB5AAD15ECF2FA003CD364 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AAC15ECF2FA003CD364 /* UIKit.framework */; };
+		DDEB5AAF15ECF2FA003CD364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AAE15ECF2FA003CD364 /* Foundation.framework */; };
+		DDEB5AB115ECF2FA003CD364 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AB015ECF2FA003CD364 /* CoreGraphics.framework */; };
+		DDEB5AB715ECF2FA003CD364 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDEB5AB515ECF2FA003CD364 /* InfoPlist.strings */; };
+		DDEB5AB915ECF2FA003CD364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5AB815ECF2FA003CD364 /* main.m */; };
+		DDEB5ABD15ECF2FA003CD364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5ABC15ECF2FA003CD364 /* AppDelegate.m */; };
+		DDEB5AC015ECF2FA003CD364 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEB5ABE15ECF2FA003CD364 /* MainStoryboard.storyboard */; };
+		DDEB5AC315ECF2FA003CD364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5AC215ECF2FA003CD364 /* ViewController.m */; };
+		DDEB5ACB15ECF2FB003CD364 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5ACA15ECF2FB003CD364 /* SenTestingKit.framework */; };
+		DDEB5ACC15ECF2FB003CD364 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AAC15ECF2FA003CD364 /* UIKit.framework */; };
+		DDEB5ACD15ECF2FB003CD364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AAE15ECF2FA003CD364 /* Foundation.framework */; };
+		DDEB5AD515ECF2FB003CD364 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDEB5AD315ECF2FB003CD364 /* InfoPlist.strings */; };
+		DDEB5AD815ECF2FB003CD364 /* MyComboBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5AD715ECF2FB003CD364 /* MyComboBoxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEB5ACE15ECF2FB003CD364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEB5A9F15ECF2FA003CD364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDEB5AA715ECF2FA003CD364;
+			remoteInfo = MyComboBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDEB5AA815ECF2FA003CD364 /* MyComboBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyComboBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEB5AAC15ECF2FA003CD364 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDEB5AAE15ECF2FA003CD364 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDEB5AB015ECF2FA003CD364 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDEB5AB415ECF2FA003CD364 /* MyComboBox-Info.plist */ = {isa = PBXFileReference; path = "MyComboBox-Info.plist"; sourceTree = "<group>"; };
+		DDEB5AB615ECF2FA003CD364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDEB5AB815ECF2FA003CD364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDEB5ABA15ECF2FA003CD364 /* MyComboBox-Prefix.pch */ = {isa = PBXFileReference; path = "MyComboBox-Prefix.pch"; sourceTree = "<group>"; };
+		DDEB5ABB15ECF2FA003CD364 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDEB5ABC15ECF2FA003CD364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDEB5ABF15ECF2FA003CD364 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DDEB5AC115ECF2FA003CD364 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DDEB5AC215ECF2FA003CD364 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDEB5AC915ECF2FB003CD364 /* MyComboBoxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyComboBoxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEB5ACA15ECF2FB003CD364 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDEB5AD215ECF2FB003CD364 /* MyComboBoxTests-Info.plist */ = {isa = PBXFileReference; path = "MyComboBoxTests-Info.plist"; sourceTree = "<group>"; };
+		DDEB5AD415ECF2FB003CD364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDEB5AD615ECF2FB003CD364 /* MyComboBoxTests.h */ = {isa = PBXFileReference; path = MyComboBoxTests.h; sourceTree = "<group>"; };
+		DDEB5AD715ECF2FB003CD364 /* MyComboBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyComboBoxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDEB5AA515ECF2FA003CD364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEB5AAD15ECF2FA003CD364 /* UIKit.framework in Frameworks */,
+				DDEB5AAF15ECF2FA003CD364 /* Foundation.framework in Frameworks */,
+				DDEB5AB115ECF2FA003CD364 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEB5AC515ECF2FB003CD364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEB5ACB15ECF2FB003CD364 /* SenTestingKit.framework in Frameworks */,
+				DDEB5ACC15ECF2FB003CD364 /* UIKit.framework in Frameworks */,
+				DDEB5ACD15ECF2FB003CD364 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDEB5A9D15ECF2FA003CD364 = {
+			isa = PBXGroup;
+			children = (
+				DDEB5AB215ECF2FA003CD364 /* MyComboBox */,
+				DDEB5AD015ECF2FB003CD364 /* MyComboBoxTests */,
+				DDEB5AAB15ECF2FA003CD364 /* Frameworks */,
+				DDEB5AA915ECF2FA003CD364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDEB5AA915ECF2FA003CD364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEB5AA815ECF2FA003CD364 /* MyComboBox.app */,
+				DDEB5AC915ECF2FB003CD364 /* MyComboBoxTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDEB5AAB15ECF2FA003CD364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDEB5AAC15ECF2FA003CD364 /* UIKit.framework */,
+				DDEB5AAE15ECF2FA003CD364 /* Foundation.framework */,
+				DDEB5AB015ECF2FA003CD364 /* CoreGraphics.framework */,
+				DDEB5ACA15ECF2FB003CD364 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDEB5AB215ECF2FA003CD364 /* MyComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				DDEB5ABB15ECF2FA003CD364 /* AppDelegate.h */,
+				DDEB5ABC15ECF2FA003CD364 /* AppDelegate.m */,
+				DDEB5ABE15ECF2FA003CD364 /* MainStoryboard.storyboard */,
+				DDEB5AC115ECF2FA003CD364 /* ViewController.h */,
+				DDEB5AC215ECF2FA003CD364 /* ViewController.m */,
+				DDEB5AB315ECF2FA003CD364 /* Supporting Files */,
+			);
+			path = MyComboBox;
+			sourceTree = "<group>";
+		};
+		DDEB5AB315ECF2FA003CD364 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEB5AB415ECF2FA003CD364 /* MyComboBox-Info.plist */,
+				DDEB5AB515ECF2FA003CD364 /* InfoPlist.strings */,
+				DDEB5AB815ECF2FA003CD364 /* main.m */,
+				DDEB5ABA15ECF2FA003CD364 /* MyComboBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDEB5AD015ECF2FB003CD364 /* MyComboBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDEB5AD615ECF2FB003CD364 /* MyComboBoxTests.h */,
+				DDEB5AD715ECF2FB003CD364 /* MyComboBoxTests.m */,
+				DDEB5AD115ECF2FB003CD364 /* Supporting Files */,
+			);
+			path = MyComboBoxTests;
+			sourceTree = "<group>";
+		};
+		DDEB5AD115ECF2FB003CD364 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEB5AD215ECF2FB003CD364 /* MyComboBoxTests-Info.plist */,
+				DDEB5AD315ECF2FB003CD364 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDEB5AA715ECF2FA003CD364 /* MyComboBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEB5ADB15ECF2FB003CD364 /* Build configuration list for PBXNativeTarget "MyComboBox" */;
+			buildPhases = (
+				DDEB5AA415ECF2FA003CD364 /* Sources */,
+				DDEB5AA515ECF2FA003CD364 /* Frameworks */,
+				DDEB5AA615ECF2FA003CD364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyComboBox;
+			productName = MyComboBox;
+			productReference = DDEB5AA815ECF2FA003CD364 /* MyComboBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDEB5AC815ECF2FB003CD364 /* MyComboBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEB5ADE15ECF2FB003CD364 /* Build configuration list for PBXNativeTarget "MyComboBoxTests" */;
+			buildPhases = (
+				DDEB5AC415ECF2FB003CD364 /* Sources */,
+				DDEB5AC515ECF2FB003CD364 /* Frameworks */,
+				DDEB5AC615ECF2FB003CD364 /* Resources */,
+				DDEB5AC715ECF2FB003CD364 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDEB5ACF15ECF2FB003CD364 /* PBXTargetDependency */,
+			);
+			name = MyComboBoxTests;
+			productName = MyComboBoxTests;
+			productReference = DDEB5AC915ECF2FB003CD364 /* MyComboBoxTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDEB5A9F15ECF2FA003CD364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DDEB5AA215ECF2FA003CD364 /* Build configuration list for PBXProject "MyComboBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDEB5A9D15ECF2FA003CD364;
+			productRefGroup = DDEB5AA915ECF2FA003CD364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDEB5AA715ECF2FA003CD364 /* MyComboBox */,
+				DDEB5AC815ECF2FB003CD364 /* MyComboBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDEB5AA615ECF2FA003CD364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEB5AB715ECF2FA003CD364 /* InfoPlist.strings in Resources */,
+				DDEB5AC015ECF2FA003CD364 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEB5AC615ECF2FB003CD364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEB5AD515ECF2FB003CD364 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDEB5AC715ECF2FB003CD364 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDEB5AA415ECF2FA003CD364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEB5AB915ECF2FA003CD364 /* main.m in Sources */,
+				DDEB5ABD15ECF2FA003CD364 /* AppDelegate.m in Sources */,
+				DDEB5AC315ECF2FA003CD364 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEB5AC415ECF2FB003CD364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEB5AD815ECF2FB003CD364 /* MyComboBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDEB5ACF15ECF2FB003CD364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDEB5AA715ECF2FA003CD364 /* MyComboBox */;
+			targetProxy = DDEB5ACE15ECF2FB003CD364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDEB5AB515ECF2FA003CD364 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEB5AB615ECF2FA003CD364 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDEB5ABE15ECF2FA003CD364 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEB5ABF15ECF2FA003CD364 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DDEB5AD315ECF2FB003CD364 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEB5AD415ECF2FB003CD364 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDEB5AD915ECF2FB003CD364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDEB5ADA15ECF2FB003CD364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDEB5ADC15ECF2FB003CD364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyComboBox/MyComboBox-Prefix.pch";
+				INFOPLIST_FILE = "MyComboBox/MyComboBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDEB5ADD15ECF2FB003CD364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyComboBox/MyComboBox-Prefix.pch";
+				INFOPLIST_FILE = "MyComboBox/MyComboBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDEB5ADF15ECF2FB003CD364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyComboBox.app/MyComboBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyComboBox/MyComboBox-Prefix.pch";
+				INFOPLIST_FILE = "MyComboBoxTests/MyComboBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DDEB5AE015ECF2FB003CD364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyComboBox.app/MyComboBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyComboBox/MyComboBox-Prefix.pch";
+				INFOPLIST_FILE = "MyComboBoxTests/MyComboBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDEB5AA215ECF2FA003CD364 /* Build configuration list for PBXProject "MyComboBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEB5AD915ECF2FB003CD364 /* Debug */,
+				DDEB5ADA15ECF2FB003CD364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEB5ADB15ECF2FB003CD364 /* Build configuration list for PBXNativeTarget "MyComboBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEB5ADC15ECF2FB003CD364 /* Debug */,
+				DDEB5ADD15ECF2FB003CD364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDEB5ADE15ECF2FB003CD364 /* Build configuration list for PBXNativeTarget "MyComboBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEB5ADF15ECF2FB003CD364 /* Debug */,
+				DDEB5AE015ECF2FB003CD364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDEB5A9F15ECF2FA003CD364 /* Project object */;
+}
