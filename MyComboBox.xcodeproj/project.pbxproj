@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD21FA2E17ABE98300A8F59A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD21FA2D17ABE98300A8F59A /* Default-568h@2x.png */; };
 		DDEB5AAD15ECF2FA003CD364 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AAC15ECF2FA003CD364 /* UIKit.framework */; };
 		DDEB5AAF15ECF2FA003CD364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AAE15ECF2FA003CD364 /* Foundation.framework */; };
 		DDEB5AB115ECF2FA003CD364 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AB015ECF2FA003CD364 /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD21FA2D17ABE98300A8F59A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DDEB5AA815ECF2FA003CD364 /* MyComboBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyComboBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEB5AAC15ECF2FA003CD364 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDEB5AAE15ECF2FA003CD364 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 		DDEB5A9D15ECF2FA003CD364 = {
 			isa = PBXGroup;
 			children = (
+				DD21FA2D17ABE98300A8F59A /* Default-568h@2x.png */,
 				DDEB5AB215ECF2FA003CD364 /* MyComboBox */,
 				DDEB5AD015ECF2FB003CD364 /* MyComboBoxTests */,
 				DDEB5AAB15ECF2FA003CD364 /* Frameworks */,
@@ -223,7 +226,7 @@
 		DDEB5A9F15ECF2FA003CD364 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = DDEB5AA215ECF2FA003CD364 /* Build configuration list for PBXProject "MyComboBox" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -252,6 +255,7 @@
 				DDEB5AC015ECF2FA003CD364 /* MainStoryboard.storyboard in Resources */,
 				DDEB5AF115ECFA2E003CD364 /* DownAccessory.png in Resources */,
 				DDEB5AF515ECFA2E003CD364 /* UpAccessory.png in Resources */,
+				DD21FA2E17ABE98300A8F59A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +349,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -358,6 +366,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
@@ -370,12 +379,17 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
