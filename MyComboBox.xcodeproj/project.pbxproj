@@ -14,12 +14,15 @@
 		DDEB5AB915ECF2FA003CD364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5AB815ECF2FA003CD364 /* main.m */; };
 		DDEB5ABD15ECF2FA003CD364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5ABC15ECF2FA003CD364 /* AppDelegate.m */; };
 		DDEB5AC015ECF2FA003CD364 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEB5ABE15ECF2FA003CD364 /* MainStoryboard.storyboard */; };
-		DDEB5AC315ECF2FA003CD364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5AC215ECF2FA003CD364 /* ViewController.m */; };
 		DDEB5ACB15ECF2FB003CD364 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5ACA15ECF2FB003CD364 /* SenTestingKit.framework */; };
 		DDEB5ACC15ECF2FB003CD364 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AAC15ECF2FA003CD364 /* UIKit.framework */; };
 		DDEB5ACD15ECF2FB003CD364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEB5AAE15ECF2FA003CD364 /* Foundation.framework */; };
 		DDEB5AD515ECF2FB003CD364 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDEB5AD315ECF2FB003CD364 /* InfoPlist.strings */; };
 		DDEB5AD815ECF2FB003CD364 /* MyComboBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5AD715ECF2FB003CD364 /* MyComboBoxTests.m */; };
+		DDEB5AE715ECF492003CD364 /* XUTableSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5AE615ECF492003CD364 /* XUTableSectionController.m */; };
+		DDEB5AF115ECFA2E003CD364 /* DownAccessory.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEB5AE915ECFA2E003CD364 /* DownAccessory.png */; };
+		DDEB5AF515ECFA2E003CD364 /* UpAccessory.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEB5AED15ECFA2E003CD364 /* UpAccessory.png */; };
+		DDEB5AFB15ECFCAB003CD364 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB5AFA15ECFCAA003CD364 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +40,25 @@
 		DDEB5AAC15ECF2FA003CD364 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDEB5AAE15ECF2FA003CD364 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDEB5AB015ECF2FA003CD364 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DDEB5AB415ECF2FA003CD364 /* MyComboBox-Info.plist */ = {isa = PBXFileReference; path = "MyComboBox-Info.plist"; sourceTree = "<group>"; };
+		DDEB5AB415ECF2FA003CD364 /* MyComboBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyComboBox-Info.plist"; sourceTree = "<group>"; };
 		DDEB5AB615ECF2FA003CD364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDEB5AB815ECF2FA003CD364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDEB5ABA15ECF2FA003CD364 /* MyComboBox-Prefix.pch */ = {isa = PBXFileReference; path = "MyComboBox-Prefix.pch"; sourceTree = "<group>"; };
-		DDEB5ABB15ECF2FA003CD364 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDEB5ABA15ECF2FA003CD364 /* MyComboBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyComboBox-Prefix.pch"; sourceTree = "<group>"; };
+		DDEB5ABB15ECF2FA003CD364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDEB5ABC15ECF2FA003CD364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DDEB5ABF15ECF2FA003CD364 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DDEB5AC115ECF2FA003CD364 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		DDEB5AC215ECF2FA003CD364 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DDEB5AC915ECF2FB003CD364 /* MyComboBoxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyComboBoxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEB5ACA15ECF2FB003CD364 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DDEB5AD215ECF2FB003CD364 /* MyComboBoxTests-Info.plist */ = {isa = PBXFileReference; path = "MyComboBoxTests-Info.plist"; sourceTree = "<group>"; };
+		DDEB5AD215ECF2FB003CD364 /* MyComboBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyComboBoxTests-Info.plist"; sourceTree = "<group>"; };
 		DDEB5AD415ECF2FB003CD364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DDEB5AD615ECF2FB003CD364 /* MyComboBoxTests.h */ = {isa = PBXFileReference; path = MyComboBoxTests.h; sourceTree = "<group>"; };
+		DDEB5AD615ECF2FB003CD364 /* MyComboBoxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyComboBoxTests.h; sourceTree = "<group>"; };
 		DDEB5AD715ECF2FB003CD364 /* MyComboBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyComboBoxTests.m; sourceTree = "<group>"; };
+		DDEB5AE515ECF492003CD364 /* XUTableSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XUTableSectionController.h; sourceTree = "<group>"; };
+		DDEB5AE615ECF492003CD364 /* XUTableSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XUTableSectionController.m; sourceTree = "<group>"; };
+		DDEB5AE915ECFA2E003CD364 /* DownAccessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownAccessory.png; sourceTree = "<group>"; };
+		DDEB5AED15ECFA2E003CD364 /* UpAccessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpAccessory.png; sourceTree = "<group>"; };
+		DDEB5AF915ECFCAA003CD364 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		DDEB5AFA15ECFCAA003CD364 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,12 +118,14 @@
 		DDEB5AB215ECF2FA003CD364 /* MyComboBox */ = {
 			isa = PBXGroup;
 			children = (
+				DDEB5AE815ECFA2E003CD364 /* Images */,
+				DDEB5AE415ECF44A003CD364 /* comboBox */,
 				DDEB5ABB15ECF2FA003CD364 /* AppDelegate.h */,
 				DDEB5ABC15ECF2FA003CD364 /* AppDelegate.m */,
 				DDEB5ABE15ECF2FA003CD364 /* MainStoryboard.storyboard */,
-				DDEB5AC115ECF2FA003CD364 /* ViewController.h */,
-				DDEB5AC215ECF2FA003CD364 /* ViewController.m */,
 				DDEB5AB315ECF2FA003CD364 /* Supporting Files */,
+				DDEB5AF915ECFCAA003CD364 /* MyTableViewController.h */,
+				DDEB5AFA15ECFCAA003CD364 /* MyTableViewController.m */,
 			);
 			path = MyComboBox;
 			sourceTree = "<group>";
@@ -149,6 +158,24 @@
 				DDEB5AD315ECF2FB003CD364 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDEB5AE415ECF44A003CD364 /* comboBox */ = {
+			isa = PBXGroup;
+			children = (
+				DDEB5AE515ECF492003CD364 /* XUTableSectionController.h */,
+				DDEB5AE615ECF492003CD364 /* XUTableSectionController.m */,
+			);
+			name = comboBox;
+			sourceTree = "<group>";
+		};
+		DDEB5AE815ECFA2E003CD364 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DDEB5AE915ECFA2E003CD364 /* DownAccessory.png */,
+				DDEB5AED15ECFA2E003CD364 /* UpAccessory.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +250,8 @@
 			files = (
 				DDEB5AB715ECF2FA003CD364 /* InfoPlist.strings in Resources */,
 				DDEB5AC015ECF2FA003CD364 /* MainStoryboard.storyboard in Resources */,
+				DDEB5AF115ECFA2E003CD364 /* DownAccessory.png in Resources */,
+				DDEB5AF515ECFA2E003CD364 /* UpAccessory.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +288,8 @@
 			files = (
 				DDEB5AB915ECF2FA003CD364 /* main.m in Sources */,
 				DDEB5ABD15ECF2FA003CD364 /* AppDelegate.m in Sources */,
-				DDEB5AC315ECF2FA003CD364 /* ViewController.m in Sources */,
+				DDEB5AE715ECF492003CD364 /* XUTableSectionController.m in Sources */,
+				DDEB5AFB15ECFCAB003CD364 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +459,7 @@
 				DDEB5ADD15ECF2FB003CD364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDEB5ADE15ECF2FB003CD364 /* Build configuration list for PBXNativeTarget "MyComboBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +468,7 @@
 				DDEB5AE015ECF2FB003CD364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
